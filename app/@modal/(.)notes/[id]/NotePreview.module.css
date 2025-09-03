@@ -45,7 +45,7 @@
 
 .date {
   font-size: 14px;
-  color: #888;
+  color: #444;
   text-align: right;
 }
 
@@ -67,17 +67,19 @@
   align-self: flex-start;
   padding: 6px 12px;
   font-size: 14px;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #000000;
   border: none;
-  border-width: 2px;
+  /* border-width: 2px; */
   border-radius: 4px;
   cursor: pointer;
   text-decoration: underline;
   display: inline-block;
-  background-color: #6b95d4;
-  transition: background-color 0.5s ease-in-out;
+  /* background-color: #6b95d4;
+  transition: background-color 0.5s ease-in-out; */
+  background-color: transparent;
 }
 
-.backBtn:hover {
+/* .backBtn:hover {
   background-color: #375d96;
-}
+} */

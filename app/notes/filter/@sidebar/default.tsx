@@ -12,15 +12,18 @@ const tagList: string[] = [
 
 const SidebarNotes = () => {
   return (
-    <ul className={css.menuList}>
-      {tagList.map(item => (
-        <li className={css.menuItem} key={item}>
-          <Link href={`/notes/filter/${item}`} className={css.menuLink}>
-            {item}
-          </Link>
-        </li>
-      ))}
-    </ul>
+    <>
+      {/* <Link href="/notes/action/create">Create note</Link> */}
+      <ul className={css.menuList}>
+        {tagList.map(item => (
+          <li className={css.menuItem} key={item}>
+            <Link href={`/notes/filter/${item}`} className={css.menuLink}>
+              {item}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 };
 

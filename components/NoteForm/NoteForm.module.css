@@ -1,12 +1,16 @@
 .form {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 16px;
+  /* max-width: 400px; */
 }
 
 .formGroup {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+
   font-size: 14px;
   font-weight: 500;
   color: #212529;
